@@ -1,3 +1,4 @@
+
 <html>
 <head>
   <title>Portrait Class Schedule</title>
@@ -52,122 +53,105 @@
       <th>Wednesday</th>
       <th>Thursday</th>
       <th>Friday</th>
- 
+    </tr>
 
-  </tr>
- 
-   <tr>
+    <tr>
       <td>06:00-06:50</td>
-      <td>HOPE 3 -  Dance </td>
+      <td>HOPE 3 - Dance</td>
       <td>Java</td>
       <td>Java</td>
       <td>Java</td>
       <td>Java</td>
- 
-   </tr>
-    
-<tr>
+    </tr>
+
+    <tr>
       <td>06:50-07:40</td>
       <td>MIL</td>
       <td>Java</td>
       <td>Java</td>
       <td>Java</td>
       <td>Java</td>
+    </tr>
 
-  </tr>
-  
-  <tr>
+    <tr>
       <td>07:40-08:30</td>
       <td>CPAR</td>
       <td>MIL</td>
       <td>CPAR</td>
       <td>CPAR</td>
       <td>CPAR</td>
+    </tr>
 
-</tr>
-   
- <tr>
+    <tr>
       <td>08:30-09:00</td>
-        <td class="activity">BREAK</td>
-       <td class="activity">BREAK</td>
       <td class="activity">BREAK</td>
-       <td class="activity">BREAK</td>
-       <td class="activity">BREAK</td>
+      <td class="activity">BREAK</td>
+      <td class="activity">BREAK</td>
+      <td class="activity">BREAK</td>
+      <td class="activity">BREAK</td>
+    </tr>
 
-   </tr>
-   
- <tr>
+    <tr>
       <td>09:00-09:50</td>
       <td>Philosophy</td>
       <td>Philosophy</td>
       <td>MIL</td>
       <td>Philosophy</td>
       <td>Philosophy</td>
+    </tr>
 
-  </tr>
-  
-  <tr>
+    <tr>
       <td>09:50-10:40</td>
       <td>Entrepreneurship</td>
       <td>Entrepreneurship</td>
       <td>Entrepreneurship</td>
       <td>MIL</td>
       <td>Entrepreneurship</td>
+    </tr>
 
-<tr>
+    <tr>
       <td>10:40-11:30</td>
       <td>PR 2</td>
       <td>PR 2</td>
       <td>PR 2</td>
       <td>PR 2</td>
       <td>HR</td>
+    </tr>
+  </table>
 
-</tr>
+  <br><br>
 
-<table>
- 
- <tr>   
-<table border="1">
-  <tr>
-   
- <th colspan="7">WEEKLY ACTIVITIES SCHEDULE</th>
- 
-  </tr>
+  <table>
+    <tr>
+      <th colspan="7">WEEKLY ACTIVITIES SCHEDULE</th>
+    </tr>
 
-  <tr>   
+    <tr>
+      <td style="text-align: center;">
+        <a href="#" onclick="toggleSlides(); return false;">MIL</a>
+        <div id="mil-slides" style="display:none; margin-top: 10px;">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRrINQZRssoPb_zAWyyZJIBq7BaJB4Q8owQFRGiafqEJlIMpiUqCBEHdXjfQXWLqg/pubembed?start=false&loop=false&delayms=3000" 
+            frameborder="0" width="100%" height="400" 
+            allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+          </iframe>
+        </div>
+      </td>
+      <td style="text-align: center;"><a href="math/activities.html">Java</a></td>
+      <td style="text-align: center;"><a href="math/activities.html">CPAR</a></td>
+      <td style="text-align: center;"><a href="math/activities.html">HOPE 3</a></td>
+      <td style="text-align: center;"><a href="https://www.youtube.com" target="_blank">YouTube</a></td>
+      <td style="text-align: center;"><a href="math/activities.html">Entrepreneurship</a></td>
+      <td style="text-align: center;"><a href="math/activities.html">PR 2</a></td>
+    </tr>
+  </table>
+
   
- <td style="text-align: center;">
-<a href="#" onclick="document.getElementById('mil-slides').style.display='block'; return false;">MIL</a>
-
-<div id="mil-slides" style="display:none; margin-top: 10px;">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRrINQZRssoPb_zAWyyZJIBq7BaJB4Q8owQFRGiafqEJlIMpiUqCBEHdXjfQXWLqg/pubembed?start=false&loop=false&delayms=3000" 
-    frameborder="0" width="100%" height="500" 
-    allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-  </iframe>
-</div>
-  
-    <td style="text-align: center;">
-      <a href="math/activities.html">Java</a>
-
-<td style="text-align: center;">
-      <a href="math/activities.html">CPAR</a>
-
- <td style="text-align: center;">
-      <a href="math/activities.html">HOPE 3</a>
-
- <td style="text-align: center;">
-      <a href="https://www.youtube.com" target="_blank">Go to YouTube</a>
-
- <td style="text-align: center;">
-      <a href="math/activities.html">Entrepreneurship</a>
-
-<td style="text-align: center;">
-      <a href="math/activities.html">Practical Research 2</a></tr>
-
-</table>
-
-
-</table>
+  <script>
+    function toggleSlides() {
+      var slide = document.getElementById('mil-slides');
+      slide.style.display = (slide.style.display === 'none') ? 'block' : 'none';
+    }
+  </script>
 
 </body>
 </html>
